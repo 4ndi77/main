@@ -1,0 +1,34 @@
+div#static{
+    position: static;
+    border: 4px solid gray;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: beige;
+}
+div#relative{
+    position: relative;
+    border: 4px solid cyan;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: pink;
+}
+div#absolute{
+    position: absolute;
+    border: 4px solid green;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: forestgreen;
+}
+div#fixed{
+    position: fixed;
+    border: 4px solid salmon;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    right: 225px;
+    top: 100px;
+    background-color: aquamarine;
+}
