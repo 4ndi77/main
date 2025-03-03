@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="return validation();" method="POST">
+        <div class="username">
+            <label id="username_label" form="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <span id="username_error">Please enter a valid Username</span>
+        </div>
+        <br>
+        <button type="submit" name="submit">Send</button>
+    </form>
+
+    <script src="java.js"></script>
+</body>
+</html>
